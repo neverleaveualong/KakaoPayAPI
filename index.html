@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>송금보내요</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #fff200;
+        padding: 20px;
+      }
+      img {
+        width: 100px;
+      }
+      button {
+        background-color: #007aff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="bear_image.jpg" alt="곰 캐릭터" />
+    <h1>송금보내요</h1>
+    <p>1,000,000원을 보냈어요.</p>
+    <p>송금 받기 전까지 보낸 분은 내역 상세화면에서 취소할 수 있어요.</p>
+    <button
+      onclick="window.location.href='https://pay.kakao.com/link/송금링크'"
+    >
+      송금 받기
+    </button>
+  </body>
+</html>
